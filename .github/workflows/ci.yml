@@ -17,4 +17,3 @@ jobs:
           go-version: ${{ matrix.go }}
       - run: go test
       - run: go run math.go
-      
